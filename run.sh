@@ -6,6 +6,7 @@ sudo yum makecache fast
 sudo yum install -y docker-ce
 sudo systemctl start docker
 docker rm -f $(docker ps -a -q)
+sudo modprobe af_key
 #docker run \
 #    --name l2tp-ipsec-vpn-server \
 #    --env-file ./vpn.env \
