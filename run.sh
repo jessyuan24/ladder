@@ -17,5 +17,7 @@ sudo modprobe af_key
 #    fcojean/l2tp-ipsec-vpn-server
 docker run -dt --name ss -p 6443:6443 mritd/shadowsocks -s "-s 0.0.0.0 -p 6443 -m aes-256-cfb -k 11223344 --fast-open"
 docker run -dt --name ss1 -p 6444:6444 mritd/shadowsocks -s "-s 0.0.0.0 -p 6444 -m aes-256-cfb -k 11223344 --fast-open"
-docker run -dt --name ss2 -p 6445:6445 mritd/shadowsocks -s "-s 0.0.0.0 -p 6445 -m aes-256-cfb -k 11223344 --fast-open"
+docker run -dt --name ss3 -p 5555:5555 mritd/shadowsocks -s "-s 0.0.0.0 -p 5555 -m aes-256-cfb -k 11223344 --fast-open"
+docker run -dt --name ss4 -p 6666:6666 mritd/shadowsocks -s "-s 0.0.0.0 -p 6666 -m aes-256-cfb -k 11223344 --fast-open"
+docker run -dt --name ss5 -p 7777:7777 mritd/shadowsocks -s "-s 0.0.0.0 -p 7777 -m aes-256-cfb -k 11223344 --fast-open"
 #docker run -d --privileged -p 1723:1723 -v /root/ladder/chap-secrets:/etc/ppp/chap-secrets mobtitude/vpn-pptp
