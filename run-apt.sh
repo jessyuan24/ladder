@@ -12,9 +12,9 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 sudo apt-get update
-sudo apt-get install -y docker-ce
-sudo systemctl start docker
-docker rm -f $(docker ps -a -q)
+#sudo apt-get install -y docker-ce
+#sudo systemctl start docker
+#docker rm -f $(docker ps -a -q)
 #docker run -dt --name ss -p 6443:6443 mritd/shadowsocks -s "-s 0.0.0.0 -p 6443 -m aes-256-cfb -k 11223344 --fast-open"
 #docker run -dt --name ss1 -p 6444:6444 mritd/shadowsocks -s "-s 0.0.0.0 -p 6444 -m aes-256-cfb -k 11223344 --fast-open"
 #docker run -dt --name ss3 -p 5555:5555 mritd/shadowsocks -s "-s 0.0.0.0 -p 5555 -m aes-256-cfb -k 11223344 --fast-open"
