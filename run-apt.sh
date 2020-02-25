@@ -1,3 +1,4 @@
+#运行在Debian/Ubuntu
 sudo apt-get update
 sudo apt-get install -y \
     apt-transport-https \
