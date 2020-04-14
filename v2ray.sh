@@ -68,7 +68,7 @@ else
 
 fi
 
-uuid="a55c8d17-2cf3-b21a-bcf1-eeacb011ed79"
+uuid="00000000-0000-0000-0000-000000000000"
 old_id="e55c8d17-2cf3-b21a-bcf1-eeacb011ed79"
 v2ray_server_config="/etc/v2ray/config.json"
 v2ray_client_config="/etc/v2ray/233blog_v2ray_config.json"
